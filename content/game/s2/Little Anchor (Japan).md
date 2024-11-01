@@ -1,0 +1,9 @@
+---
+type : game
+title : Little Anchor (Japan)
+size : 2.5 G
+format : iso
+archive : zip
+server : myrient
+link2 : Little%20Anchor%20%28Japan%29
+---

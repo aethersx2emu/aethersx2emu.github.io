@@ -1,0 +1,9 @@
+---
+type : game
+title : Thrillville - Fuori dai Binari (Italy)
+size : 2.4 G
+format : iso
+archive : zip
+server : myrient
+link2 : Thrillville%20-%20Fuori%20dai%20Binari%20%28Italy%29
+---

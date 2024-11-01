@@ -1,0 +1,9 @@
+---
+type : game
+title : Metal Gear Solid 3 - Subsistence (Japan) (Disc 2) (Persistence) (Shokai Seisanban)
+size : 2.2 G
+format : iso
+archive : zip
+server : myrient
+link2 : Metal%20Gear%20Solid%203%20-%20Subsistence%20%28Japan%29%20%28Disc%202%29%20%28Persistence%29%20%28Shokai%20Seisanban%29
+---

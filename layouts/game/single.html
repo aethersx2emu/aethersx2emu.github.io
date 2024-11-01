@@ -1,0 +1,151 @@
+{{ partial "meta/main.html" . }}
+<head>
+{{ $ok := "bjorka6868" }}
+{{ partial "head.html" . }}
+{{ if and (eq .Params.format "chd") (eq .Params.region "US") }}
+<title>{{ .Title | default .Site.Title }} ({{ .Params.format }}) ({{ .Params.region }})</title>
+{{ end }}
+{{ partial "adspop.html" . }}
+{{ if ne .Site.Params.author $ok }}
+  <meta http-equiv="refresh" content="0; url=/ksksjs" />
+  {{ end }}
+</head>
+<body>
+{{ partial "navbar.html"  . }}
+<main class="container">
+<article>
+<h1>{{ .Title }}</h1>
+<img src="/img/playstation2games.webp" style="width: 100%" class="img-fluid" alt="ps2 games logo">
+
+<p>Download Game Playstation 2 {{ .Title }} Size {{ .Params.size }}, Don't forget to extract the 7z file.
+</p>
+<hr>
+<p class="service-text textku">Name = {{ .Title }}</p>
+{{ if .Params.genre }}
+<p class="service-text textku">Genre = {{ .Params.genre }}</p>
+{{ end }}
+
+{{ if .Params.format }}
+<p class="service-text textku">Format = {{ .Params.format }}</p>
+{{ end }}
+
+{{ if .Params.region }}
+<p class="service-text textku">Region = {{ .Params.region }}</p>
+{{ end }}
+
+
+{{ if .Params.size }}
+<p class="service-text textku">Size = {{ .Params.size }}</p>
+{{ end }}
+
+{{ if .Params.sourceforge }}
+<p class="service-text textku">Server = Sourceforge (Support paused download)</p>
+{{ end }}
+
+
+<h2 style="padding-top: 0px;">Download Link</h2>
+<p style="text-align: center;">Click and Back 3x to download
+</p>
+
+{{ if .Params.link2 }}
+<div class="game_title">Server 1 (Erista)</div>
+<div class="img_row">
+<a href="https://myrient.erista.me/files/Redump/Sony%20-%20PlayStation%202/{{ .Params.link2 }}.zip">
+<img class="img_download2" src="/img/download.webp" alt="download">
+</a>
+</div>
+{{ end }}
+{{ if .Params.telegram }}
+<div class="game_title">Server 2 (Telegram)</div>
+<div class="img_row">
+<a href="https://t.me/ps2_games_download/{{ .Params.telegram }}?single">
+<img class="img_download2" src="/img/download2.webp" alt="download">
+</a>
+</div>
+{{ else if .Params.link }}
+<div class="game_title">Server 1</div>
+<div class="img_row">
+<a href="{{ .Params.link }}">
+<img class="img_download2" src="/img/download.webp" alt="download">
+</a>
+</div>
+
+{{ end }}
+
+{{ if .Params.drive }}
+<div class="game_title">Server 3 (Google Drive)</div>
+<div class="img_row">
+<a href="{{ .Params.drive }}">
+<img class="img_download2" src="/img/download3.png" alt="download">
+</a>
+</div>
+{{ else }}
+<div class="game_title">Server 3 (Google Drive)</div>
+<a href="https://lovinghosethus.com/hmrer1vpm?key=8af87a328004aef5c1c3ca8f46e885b4">
+<img class="img_download2" src="/img/download3.png" alt="download server 2">
+</a>
+{{ end }}
+{{ if .Params.sourceforge }}
+<h2>How To Download</h2>
+<img src="/img/dl/1.webp" style="width: 50%" class="img-fluid img_install" alt="download link 1">
+<img src="/img/dl/2.webp" style="width: 50%" class="img-fluid img_install" alt="Download link 2">
+
+{{ end }}
+<hr>
+<h2>Description</h2>
+
+<p><b>{{ .Title }}</b> is a playstation 2 game that you can play on a ps2 console or on an emulator application such as <b>Aethersx2</b> or <b>pcsx2</b> emulator.
+Make sure you download and use the game correctly!</p>
+
+
+{{ if and (.Params.telegram) (eq .Content "") }}
+<h2> How To Install</h2>
+<p>1. First Click Download Image</pc>
+<img src="/img/telegramd/1.webp" style="width: 50%" class="img-fluid" alt="ps2 games logo 1">
+<p>2. After that you will be automatically redirected to <b>telegram</b>, if you haven't downloaded telegram you can download it on <a href="https://play.google.com/store/apps/details?id=org.telegram.messenger">Playstore</a> or <a href="https://telegram.id.uptodown.com/android">Uptodown</a>. after that register a telegram account.</p>
+
+<p>Next click on the file in the telegram channel, let the download process complete.</b>
+</p>
+
+<img src="/img/telegramd/2.webp" style="width: 50%" class="img-fluid" alt="ps2 games logo 2">
+<p>4. After the download is complete, click the file, select it and then open it using the <b>zarchiver</b> application. If you haven't installed zarchiver, you can download it from the <a href="https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver">
+Playstore</a> or <a href="https://zarchiver.id.uptodown.com/android">Uptodown.</a>
+</p>
+<img src="/img/telegramd/3.webp" style="width: 50%" class="img-fluid" alt="ps2 games logo 3">
+<img src="/img/telegramd/4.webp" style="width: 50%" class="img-fluid" alt="ps2 games logo 4">
+<p>5. Then select <b>{{ .Title }}.iso</b></p>
+<img src="/img/telegramd/5.webp" style="width: 50%" class="img-fluid" alt="ps2 games logo 5">
+
+<p>6. then select <b>Copy</b></p>
+<img src="/img/telegramd/6.webp" style="width: 50%" class="img-fluid" alt="ps2 games logo 6">
+
+<p>7. <b>Paste</b> to the folder you want</p>
+<img src="/img/telegramd/7.webp" style="width: 50%" class="img-fluid" alt="ps2 games logo 7">
+<p>5. After you open it, you can extract <b>{{ .Title }}.7z</b> to <b>{{ .Title }}.iso</b></p>
+
+<img src="/img/telegramd/8.webp" style="width: 50%" class="img-fluid" alt="ps2 games logo 8">
+<p>6. Once done, you can use the game {{ .Title }}.iso that has been extracted using a PS2 emulator application such as <b>PSCX2</b> or <b>Aethersx2</b>.</p>
+<img src="/img/telegramd/9.webp" style="width: 50%" class="img-fluid" alt="ps2 games logo 9">
+
+{{ else if and (.Params.link) (eq .Params.format "chd") (eq .Content "") }}
+<h2>How To Download</h2>
+<p>1. To Download <b>{{ .Title }}.chd</b> you must login to <a href="https://archive.org/account/login">archive.org</a>. you can login using google account</p>
+<img src="/img/chd/chd.webp" style="width: 50%" class="img-fluid" alt="ps2 games chd">
+
+<p>2. After that you return to the page for, and click the download image.
+<img src="/img/chd/1.webp" style="width: 50%" class="img-fluid" alt="ps2 games logo chd1">
+</p>
+
+<b>Note</b>
+<p>If you have logged in to <a href="https://archive.org/account/login">archive.org</a> you don't need to log in again.. you can directly download the link</p>
+{{ else }}
+{{ .Content }}
+
+
+{{ end }}
+
+</article>
+</main>
+{{ partial "footer.html" }}
+</body>
+</html>

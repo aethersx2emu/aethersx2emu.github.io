@@ -1,0 +1,9 @@
+---
+type : game
+title : Hisui no Shizuku - Hiiro no Kakera 2 (Japan)
+size : 1.4 G
+format : iso
+archive : zip
+server : myrient
+link2 : Hisui%20no%20Shizuku%20-%20Hiiro%20no%20Kakera%202%20%28Japan%29
+---

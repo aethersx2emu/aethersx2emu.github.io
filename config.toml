@@ -1,0 +1,33 @@
+baseurl = "https://aethersx2.me"
+contentdir    = "content"
+layoutdir     = "layouts"
+publishdir    = "public"
+languageCode = "en"
+resourceDir = "../resources"
+DefaultContentLanguage = "en"
+
+
+
+PygmentsCodeFences = true
+PygmentsStyle      = "monokai"
+
+[params]
+  author = "bjorka6868"
+  
+buildFuture = true
+
+[pagination]
+  disableAliases = false
+  pagerSize = 22
+
+     
+[sitemap]
+  changefreq = "always"
+  priority = 0.8
+  filename = "sitemap.xml"
+[permalinks]
+  news     = ":section/:year/:month/:day/:slug"
+
+[markup.goldmark.renderer]
+  unsafe = true # agar bisa menulis html di markdo
+  

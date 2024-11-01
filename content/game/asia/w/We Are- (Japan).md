@@ -1,0 +1,9 @@
+---
+type : game
+title : We Are- (Japan)
+genre : 
+format : iso
+region : asia
+link : https://archive.org/download/PS2-ASIA-ROMS321COM/We%20Are-%20%28Japan%29.7z
+size : 1.8GB
+---

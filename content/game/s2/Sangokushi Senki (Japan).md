@@ -1,0 +1,9 @@
+---
+type : game
+title : Sangokushi Senki (Japan)
+size : 2.9 G
+format : iso
+archive : zip
+server : myrient
+link2 : Sangokushi%20Senki%20%28Japan%29
+---

@@ -1,0 +1,9 @@
+---
+type : game
+title : Metal Gear Solid 2 - Substance (USA)
+size : 4.6 G
+format : iso
+archive : zip
+server : myrient
+link2 : Metal%20Gear%20Solid%202%20-%20Substance%20%28USA%29
+---
