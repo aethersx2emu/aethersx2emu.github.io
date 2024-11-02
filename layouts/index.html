@@ -215,15 +215,13 @@ We will provide aethersx2 settings that are suitable for your device, so that th
 
 <h2> Article</h2>
 {{ $Name := where site.RegularPages "Type" "blog" }}
-  {{ range (sort $Name) }}
-  
- 	<p syle="padding : 5px"> <a href="{{ .Permalink }}">{{ .Title }}</a></p>
-	
-   {{ end }}
+{{ range (sort $Name) }}
+<p syle="padding : 5px"> <a href="{{ .Permalink }}">{{ .Title }}</a></p>
+{{ end }}
   
 
 
-<h2>Game Trend</h2>
+<h2>Games Trend</h2>
 <table class="table table-sm">
   
   <thead>
