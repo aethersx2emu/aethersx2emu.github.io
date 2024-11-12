@@ -1,7 +1,7 @@
 ---
 title  : Download Playstation 2 Games | Aethersx2
 lang: en
-noadsense= true
+noadsense : true
 keywords  : [
     "playstation Games", "ps2 games", "Aethersx2 Games",
   ]
