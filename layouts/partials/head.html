@@ -10,8 +10,7 @@
 {{ partial "google/analytics.html" . }}
 {{ partial "google/tagmanager_head.html" . }}
 {{ partial "style.html" . }}
-{{ if and .Params.ads "true" }}
-	{{ partial "google/adsense.html" . }}
-{{ end}}
+
+{{ partial "google/adsense.html" . }}
 
 {{ partial "ads/head.html" . }}
