@@ -1,5 +1,18 @@
 {{ define "blog" }}
-{{ partial "single.html" . }}
+<main class="container">
+<header>
+<h1>{{ .Title }}</h1>
+
+</header>
+
+<article>
+
+{{ .Content }}
+
+</article>
+
+{{ partial "ads/footer.html" . }}
+</main>
 {{ end }}
 
 
