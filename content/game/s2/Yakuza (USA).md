@@ -1,6 +1,6 @@
 ---
 type : game
-title : Yakuza (USA)
+title : Yakuza 1 (USA)
 size : 3.1 G
 format : iso
 archive : zip

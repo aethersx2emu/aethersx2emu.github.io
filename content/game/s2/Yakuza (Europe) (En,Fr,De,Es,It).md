@@ -1,6 +1,6 @@
 ---
 type : game
-title : Yakuza (Europe) (En,Fr,De,Es,It)
+title : Yakuza 1 (Europe) (En,Fr,De,Es,It)
 size : 3.1 G
 format : iso
 archive : zip

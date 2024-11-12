@@ -1,6 +1,6 @@
 ---
 type : game
-title : Shin Megami Tensei - Digital Devil Saga (USA)
+title : Shin Megami Tensei - D1gital Devil Saga (USA)
 size : 3.5 G
 format : iso
 archive : zip
