@@ -12,6 +12,7 @@ keywords  : [
   ]
 author : aethersx2
 adsterapopunder : true
+noadsense : true
 ---
 
 
