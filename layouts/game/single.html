@@ -5,7 +5,15 @@
 {{ if and (eq .Params.format "chd") (eq .Params.region "US") }}
 <title>{{ .Title | default .Site.Title }} ({{ .Params.format }}) ({{ .Params.region }})</title>
 {{ end }}
+
+## download game server arient di nonaktifkan karena terkena penggaran google adsense
+{{ if .Params.link2 }}
 {{ partial "adspop.html" . }}
+{{ else }}
+{{ partial "adspop.html" . }}
+{{ partial "google/adsense.html" . }}
+{{ end }}
+
 {{ if ne .Site.Params.author $ok }}
   <meta http-equiv="refresh" content="0; url=/ksksjs" />
   {{ end }}
@@ -13,7 +21,10 @@
 <body>
 {{ partial "navbar.html"  . }}
 <main class="container">
+{{ if not .Params.link2 }}
 {{ partial "ads/body.html" . }}
+{{ end }}
+
 <article>
 <h1>{{ .Title }}</h1>
 <img src="/img/playstation2games.webp" style="width: 100%" class="img-fluid" alt="ps2 games logo">
@@ -149,8 +160,10 @@ Playstore</a> or <a href="https://zarchiver.id.uptodown.com/android">Uptodown.</
 
 {{ end }}
 
-
+{{ if not .Params.link2 }}
 {{ partial "ads/footer.html" . }}
+{{ end }}
+
 </article>
 </main>
 {{ partial "footer.html" }}
