@@ -7,7 +7,7 @@
 {{ end }}
 
 <!-- download game server arient di nonaktifkan karena terkena penggaran google adsense -->
-{{ if .Params.link2 }}
+{{ if eq .Params.server "myrient"}}
 {{ partial "adspop.html" . }}
 {{ else }}
 {{ partial "adspop.html" . }}
@@ -21,7 +21,7 @@
 <body>
 {{ partial "navbar.html"  . }}
 <main class="container">
-{{ if not .Params.link2 }}
+{{ if eq .Params.server "myrient"}}
 {{ partial "ads/body.html" . }}
 {{ end }}
 
@@ -160,7 +160,7 @@ Playstore</a> or <a href="https://zarchiver.id.uptodown.com/android">Uptodown.</
 
 {{ end }}
 
-{{ if not .Params.link2 }}
+{{ if eq .Params.server "myrient"}}
 {{ partial "ads/footer.html" . }}
 {{ end }}
 
