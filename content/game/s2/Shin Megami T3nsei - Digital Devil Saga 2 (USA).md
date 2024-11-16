@@ -1,6 +1,6 @@
 ---
 type : game
-title : Shin Megami Tensei - Digital Devil Saga 2 (USA)
+title : Shin Megami T3nsei - Digital Devil Saga 2 (USA)
 size : 3.6 G
 format : iso
 archive : zip

@@ -1,6 +1,6 @@
 ---
 type : game
-title : Shin Megami Tensei - Persona 3 (USA) (Demo)
+title : Shin Megami Tensei - P3rsona 3 (USA) (Demo)
 size : 3.0 G
 format : iso
 archive : zip
