@@ -2,8 +2,6 @@
 title : Cookies Policy
 ---
 
-## Cookies Policy for aethersx2.me
-
 This Cookies Policy explains how Aethersx2.me ("we," "us," or "our") uses cookies and similar tracking technologies on our website [ https://aethersx2.me](https://aethersx2.me) (the "Site"). By using the Site, you agree to the use of cookies as described in this policy.
 
 ## What Are Cookies?

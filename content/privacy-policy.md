@@ -2,7 +2,6 @@
 title  : Privacy Policy
 ---
 
-# Privacy Policy
 
 **Effective Date:** `1-11-2024`
 
