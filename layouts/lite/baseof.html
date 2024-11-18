@@ -1,0 +1,16 @@
+{{ partial "meta/main.html" . }}
+<head>
+{{ partial "lite/head.html" . }}
+</head>
+<body>
+{{ partial "lite/navbar.html"  . }}
+
+<main class="container">
+{{ block "lite" . }}
+{{ .Content }}
+{{ end }}
+</main>
+{{ partial "lite/footer.html" }}
+</body>
+</html>
+
