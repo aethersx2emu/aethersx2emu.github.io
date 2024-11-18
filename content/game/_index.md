@@ -1,5 +1,6 @@
 ---
-title  : Download Playstation 2 Games | Aethersx2
+type : lite
+title  : Download Playstation 2 Games | Aethersx2 | PCSX2
 lang: en
 noadsense : true
 keywords  : [
