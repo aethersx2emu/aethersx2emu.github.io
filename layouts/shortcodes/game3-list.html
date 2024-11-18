@@ -9,7 +9,6 @@
 	{{ $Name := where site.RegularPages "Type" "game" }}
 	{{ range (sort $Name) }}
 		{{ if eq .Params.region "asia" }}
-		
   				<tbody>
    				 <tr>
    				   <td class="tddd"><a href="{{ .Permalink }}">{{ .Title }}</a></td>

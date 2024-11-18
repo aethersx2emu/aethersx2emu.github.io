@@ -1,6 +1,7 @@
 ---
 title  : Download Playstation 2 Games ASIA (7z)(iso)
-lang: en
+lang : en
+description : All Game Playstation 2 Support Aethersx2 & PCSX2.
 keywords  : [
     "playstation Games", "ps2 games", "Aethersx2 Games",
   ]
