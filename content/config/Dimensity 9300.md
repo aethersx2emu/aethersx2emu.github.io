@@ -1,5 +1,5 @@
 ---
-type   : blog
+type   : config
 title  : Settings Config For Mediatek Dimensity 9300
 soc : Mediatek Dimensity 9300
 date   : 2024-08-13T12:46:15+07:00

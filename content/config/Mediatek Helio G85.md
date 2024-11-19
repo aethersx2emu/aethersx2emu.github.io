@@ -1,5 +1,5 @@
 ---
-type   : blog
+type   : config
 title  : Settings Config For Mediatek Helio G85
 soc : Mediatek Helio G85
 date   : 2024-07-30T12:46:15+07:00

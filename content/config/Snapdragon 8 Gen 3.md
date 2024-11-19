@@ -1,5 +1,5 @@
 ---
-type   : blog
+type   : config
 title  : Settings Config For Snapdragon 8 Gen 3
 soc : Snapdragon 8 Gen 3
 date   : 2024-08-14T12:46:15+07:00

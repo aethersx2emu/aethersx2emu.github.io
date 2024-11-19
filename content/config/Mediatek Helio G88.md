@@ -1,5 +1,5 @@
 ---
-type   : blog
+type   : config
 title  : Settings Config For Mediatek Helio G88
 soc : Mediatek Helio G88
 date   : 2024-08-21T12:46:15+07:00

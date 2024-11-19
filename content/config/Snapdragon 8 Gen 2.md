@@ -1,5 +1,5 @@
 ---
-type   : blog
+type   : sonfig
 title  : Settings Config For Snapdragon 8 Gen 2
 soc : Snapdragon 8 Gen 2
 date   : 2024-08-21T12:46:15+07:00

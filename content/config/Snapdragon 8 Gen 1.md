@@ -1,5 +1,5 @@
 ---
-type   : blog
+type   : config
 title  : Settings Config For Snapdragon 8 Gen 1
 soc : Snapdragon 8 Gen 1
 date   : 2024-04-21T12:46:15+07:00

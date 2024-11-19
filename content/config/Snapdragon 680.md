@@ -1,5 +1,5 @@
 ---
-type   : blog
+type   : config
 title  : Settings Config For Snapdragon 680
 soc : Snapdragon 680
 date   : 2024-07-16T12:46:15+07:00

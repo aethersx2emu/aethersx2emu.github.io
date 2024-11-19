@@ -1,5 +1,5 @@
 ---
-type   : blog
+type   : config
 title  : Settings Config For Snapdragon 730G
 soc : Snapdragon 730G
 date   : 2024-07-04T12:46:15+07:00

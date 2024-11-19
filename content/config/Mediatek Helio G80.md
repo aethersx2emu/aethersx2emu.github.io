@@ -1,5 +1,5 @@
 ---
-type   : blog
+type   : config
 title  : Settings Config For Mediatek Helio G80
 soc : Mediatek Helio G80
 date   : 2024-08-01T12:46:15+07:00

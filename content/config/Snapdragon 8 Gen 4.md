@@ -1,5 +1,5 @@
 ---
-type   : blog
+type   : config
 title  : Settings Config For Snapdragon 8 Gen 4
 soc : Snapdragon 8 Gen 4
 date   : 2024-10-31T12:46:15+07:00

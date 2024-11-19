@@ -1,5 +1,5 @@
 ---
-type   : blog
+type   : config
 title  : Settings Config For Snapdragon 4 Gen 2
 soc : Snapdragon 4 Gen 2
 date   : 2024-07-05T12:46:15+07:00
