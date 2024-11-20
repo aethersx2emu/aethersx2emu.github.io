@@ -13,7 +13,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 
 ol,
 ul {
-  padding-left: 2rem;
+  padding-left: 1rem;
 }
 
 ol,
@@ -30,7 +30,7 @@ ul ol {
   margin-bottom: 0;
 }
 
-ul {
+article > ul {
   list-style-type: disc;
 }
 
@@ -89,14 +89,38 @@ main {
 }
 
 /* General Reset */
-body, ul, li, a {
+body {
   margin: 0;
+  padding: 0;
+}
+header > li {
+	margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
   font-family: Arial, sans-serif;
-}
-
+	
+	
+	}
+header > ul {
+	margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+	
+	}
+	
+header > a {
+	margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+	}
+	
+	
+	
 /* Navbar Styling */
 .navbar {
   display: flex;
