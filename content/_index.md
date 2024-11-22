@@ -1,6 +1,6 @@
 ---
-title  : AetherSX2 Bios Download For Android - IOS
-description: AetherSX2 is a powerful and free PlayStation 2 emulator for Android devices. Play PS2 games anywhere with incredible performance and high compatibility.
+title  : AetherSX2 Emulator Bios Download For Android - IOS
+description: AetherSX2 is a Playstation 2 (PS2) Emulator that supports arm architecture (64 bit), you can use the aethersx2 emulator for Android, IOS, Windows, MAC and Linux.
 lang: en
 categories: [emulator]
 tags      : [apk]
