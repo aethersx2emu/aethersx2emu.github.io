@@ -1,7 +1,7 @@
 
 {{ partial "google/tagmanager_body.html" . }}
 
-{{ if not .Params.navbar }}
+{{ if ne .Params.navbar "off" }}
   <nav class="navbar">
     <div class="brand">AetherSX2</div>
     <input type="checkbox" id="menu-toggle" class="menu-toggle">
