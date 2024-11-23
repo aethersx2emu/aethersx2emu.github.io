@@ -3,8 +3,9 @@
 {{ partial "lite/head.html" . }}
 </head>
 <body>
+{{ if not .Params.navbar }}
 {{ partial "lite/navbar.html"  . }}
-
+{{ end }}
 <main class="container">
 {{ block "lite" . }}
 {{ .Content }}
