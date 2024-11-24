@@ -3,11 +3,7 @@
 {{ partial "lite/head.html" . }}
 </head>
 <body>
-
-{{ if not .Params.navbar }}
-<p>coba1 : {{ .Params.navbar }}
 {{ partial "lite/navbar.html"  . }}
-{{ end }}
 <main class="container">
 {{ block "lite" . }}
 {{ .Content }}

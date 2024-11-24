@@ -1,5 +1,5 @@
 ---
-type : lite
+type : lite2
 title  : Download Playstation 2 Games - Aethersx2 - PCSX2
 description : All Game Playstation 2 Support Aethersx2 & PCSX2.
 lang: en
