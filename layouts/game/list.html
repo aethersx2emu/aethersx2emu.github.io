@@ -1,6 +1,12 @@
-{{ define "game" }}
-<article>
+{{ partial "meta/main.html" . }}
+<head>
+{{ partial "lite2/head.html" . }}
+</head>
+<body>
+{{ partial "lite2/navbar.html" . }}
+<main class="container">
 {{ .Content }}
-</article>
-{{ end }}
-
+</main>
+{{ partial "lite2/footer.html" }}
+</body>
+</html>

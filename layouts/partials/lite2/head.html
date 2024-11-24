@@ -1,0 +1,12 @@
+{{ partial "meta/html.html" . }}
+<title>{{ .Page.Title | default .Site.Title }}</title>
+{{ partial "meta/opengraph.html" . }}
+{{ partial "meta/seo.html" . }}
+{{ partial "meta/twitter.html" . }}
+{{ partial "lite/framework.html" . }}
+<link rel="shortcut icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+{{ partial "google/searchconsole.html" . }}
+{{ partial "google/analytics.html" . }}
+{{ partial "lite/style.html" . }}
+
