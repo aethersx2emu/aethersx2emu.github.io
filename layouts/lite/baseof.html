@@ -3,6 +3,7 @@
 {{ partial "lite/head.html" . }}
 </head>
 <body>
+<p>{{ .Params.navbar }}
 {{ if not .Params.navbar }}
 {{ partial "lite/navbar.html"  . }}
 {{ end }}
