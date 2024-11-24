@@ -4,7 +4,7 @@
 </head>
 <body>
 <p>coba : {{ .Params.navbar }}
-{{ if not .Params.navbar }}
+{{ if ne .Params.navbar "false" }}
 {{ partial "lite/navbar.html"  . }}
 {{ end }}
 <main class="container">
