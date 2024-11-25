@@ -42,36 +42,9 @@
 	
 <h2>What are the features of aethersx2?</h2>
 <h3>Support</h3>
-<p>Aethersx2 Emulator Supports Almost All Platforms such as **Android**, **IOS**, **Windows**, **MAC** and **Linux** provided that the platform uses arm64 architecture.</p >
-
-<h2> How To improve Device performance</h2>
-<ul>
-<li>Use Skia's Vulkan renderer, especially if your device uses a Mali GPU.  but in some games it may not support you can use opengl if that happens.</li>
-<li>For some devices using Mali gpu, enabling the <i>Threaded Presentation</i> feature in <i>Advanced Settings</i> can improve performance significantly but in some devices it will crash (for example google pixel 7)</li>
-<li>Underclock the CPU, which is able to mimic the performance pipeline by setting the cycle rate to a negative number, and skip cycles to a positive number in System settings.  This will crash some games, and cause crashes when this feature is enabled if the game does not support it.</li>
-<li>If the game slows down depending on your eyes, this may be due to the GS download renderer, which is very slow on low spec GPUs.  You can toggle the hardware download mode feature to Asynchronous or Disabled, but this may cause some problems to the app and it may crash.</li>
-<li>You could try switching the SPU3's mixing mode to Async Mix instead of Timestretch.  But in some games it is not compatible, it is recommended to try it first.</li>
-<li>For some devices (e.g. Sony, Xiaomi, Samsung and Pixel), using affinity control can increase performance to the highest level.</li>
-<li>Lowering the number of gpu renders can improve performance, but this will hurt the image quality (suitable for low spec devices).</li>
-<li>If after updating the aethersx2 application it becomes slow and the performance seems to be slow, you can delete the data and cache then enter the application again.</li>
-<li>Use the <code>OpenGL</code> renderer if your device has low specifications.</li>
-</ul>
-
-<h2>Features</h2>
-<h3>GPU</h3>
-<ul>
-<li>Supports 3 modern renderers, namely OpenGL, Vulkan and software.  adjust this renderer to your device's specifications, because if it doesn't match it will reduce performance or the game will crash.</li>
-<li>Adding a resolution level feature from the smallest 1.5x to 8x will make the game display clearer, but in some games this is not supported.</li>
-<li>Offers custom bilenier filtering that you can choose nearest-neightbot (point), bilenier (forced), bilenier (ps2), bilenier (forced excluding sprite).</li>
-<li>Mipmaping : automatic, off, basic, full (ps2 mips).
-<li>Support cusrom trilinear filtering.
-<li>anisotropic filtering 1x to 16x.
-<li>Blending Accuracy minimum, basic, medium, hight, full, ultra.
-<li>Texture Preloading : partial and full.
-<li>Aspect Ratio : Sretch, auto standard, strandard, widescreen.
-</ul>
-
-
+<p>Aethersx2 Emulator Supports Almost All Platforms such as <b>Android</b>, <b>IOS</b>, <b>Windows</b>, <b>MAC</b> and <b>Linux</b> provided that the platform uses arm64 architecture.</p >
+<h3>Controller</h3>
+<p>aethersx2 supports game pad controller for easier playing, it also supports usb and bluetooth connection. but you have to adjust the controller settings in the <i>controller settings</i> menu.</p>
 <h2>Tips</h2>
 <ul>
 <li>Force GPU Rendering: enable this feature in device settings <code>Settings</code> > <code>Developer Options</code> > <code>Enable Force GPU Rendering</code>.  Enabling this feature will improve performance and graphic quality but drains battery usage, we recommend deactivating it when not playing games.</li>
