@@ -15,7 +15,5 @@ keywords  : [
 
 [Game Playstation 2 (USA)(.7z)(Telegram Link)](/game2)
 
-[Game Playstation 2 (ASIA)(.7z)(iso)](/game3)
-
 ## Game
 {{< game-list >}}

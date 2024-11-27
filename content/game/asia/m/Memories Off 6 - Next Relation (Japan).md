@@ -1,9 +1,0 @@
----
-type : game
-title : Memories Off 6 - Next Relation (Japan)
-genre : 
-format : iso
-region : asia
-link : https://archive.org/download/PS2-ASIA-ROMS321COM/Memories%20Off%206%20-%20Next%20Relation%20%28Japan%29.7z
-size : 2.0GB
----

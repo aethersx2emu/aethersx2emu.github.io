@@ -1,9 +1,0 @@
----
-type : game
-title : Shinki Gensou - Spectral Souls (Japan) (Genteiban)
-genre : 
-format : iso
-region : asia
-link : https://archive.org/download/PS2-ASIA-ROMS321COM/Shinki%20Gensou%20-%20Spectral%20Souls%20%28Japan%29%20%28Genteiban%29.7z
-size : 1.4GB
----

@@ -1,9 +1,0 @@
----
-type : game
-title : Final Fantasy XI - Online (Japan) (Beta)
-genre : 
-format : iso
-region : asia
-link : https://archive.org/download/PS2-ASIA-ROMS321COM/Final%20Fantasy%20XI%20-%20Online%20%28Japan%29%20%28Beta%29.7z
-size : 262MB
----
