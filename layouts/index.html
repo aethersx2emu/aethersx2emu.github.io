@@ -97,9 +97,9 @@
       <th scope="col">Size</th>
     </tr>
   </thead>
-	{{ $pages := where .Site.Pages "Params.populer" "==" true }}
-	{{ if $pages }}
+	{{ $Name := where site.RegularPages "Type" "game" }}
  		 {{ range (sort $Name) }}
+  			{{ if .Params.populer }}
   				<tbody>
    				 <tr>
    				   <td class="tddd"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
