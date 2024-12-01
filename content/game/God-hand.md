@@ -8,6 +8,7 @@ categories: [design]
 size : 957 MB
 link2 : God%20Hand%20%28USA%29
 link : https://t.me/AetherSX2_Emulator/70
+populer : true
 ---
 
 **Genre:** Action-adventure, beat 'em up

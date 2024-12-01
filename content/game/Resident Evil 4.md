@@ -7,6 +7,7 @@ categories: [game]
 link2 : Resident%20Evil%204%20%28USA%29
 link : https://t.me/AetherSX2_Emulator/120
 size : 3.0 GB
+populer : true
 ---
 
 Resident Evil 4: A Haunting Reimagining on the PlayStation 2

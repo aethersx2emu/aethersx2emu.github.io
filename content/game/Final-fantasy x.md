@@ -7,6 +7,7 @@ name   : Final Fantasy X
 size : 3.4 GB
 telegram : 583
 link2 : Final%20Fantasy%20X%20%28USA%29
+populer : true
 ---
 
 

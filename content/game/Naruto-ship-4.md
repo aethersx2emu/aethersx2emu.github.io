@@ -8,7 +8,7 @@ categories: [design]
 size : 3.1 GB
 link2 : Naruto%20Shippuden%20-%20Ultimate%20Ninja%204%20%28USA%29%20%28En%2CFr%29
 link : https://t.me/AetherSX2_Emulator/105
-
+populer : true
 ---
 
 Naruto Shippuden: Ultimate Ninja 4 is a fighting game developed by CyberConnect2 and published by Bandai Namco Games for the PlayStation 2. Released in March 2009, it's part of the long-running Naruto: Ultimate Ninja series based on the popular manga and anime franchise.

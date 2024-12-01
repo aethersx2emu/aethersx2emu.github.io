@@ -8,6 +8,7 @@ categories :
 size : 747 MB
 link2 : Shonen%20Jump%27s%20One%20Piece%20-%20Grand%20Adventure%20%28USA%29
 link : https://t.me/AetherSX2_Emulator/95
+populer : true
 ---
 
 **One Piece: Grand Adventure** is an action-packed video game based on the popular anime and manga series, One Piece. Released for the PlayStation 2 and GameCube in 2006, this title offers fans a thrilling adventure through the world of pirates.

@@ -10,6 +10,7 @@ keywords  : [Need for Speed Underground 2, PS2, racing game, customization, open
 size : 1.3 GB
 link2 : Need%20for%20Speed%20-%20Underground%202%20%28USA%29
 telegram : 1232
+populer : true
 ---
 
 

@@ -16,8 +16,8 @@
 <link rel="shortcut icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}" />
 {{ partial "lite/framework.html"  . }}
 {{ partial "lite/style.html" . }}
-{{ partial "google/adsense.html" . }}
-{{ partial "ads/head.html" . }}
+<!-- {{ partial "google/adsense.html" . }} -->
+<!-- {{ partial "ads/head.html" . }} -->
 
 </head>
 <body>
@@ -81,7 +81,7 @@
 <h2> Article</h2>
 {{ $Name := where site.RegularPages "Type" "blog" }}
 {{ range (sort $Name) }}
-<p syle="padding : 5px"> <a href="{{ .Permalink }}">{{ .Title }}</a></p>
+<p syle="padding : 4px"> <a href="{{ .Permalink }}">{{ .Title }}</a></p>
 {{ end }}
   
 
@@ -95,9 +95,9 @@
       <th scope="col">Size</th>
     </tr>
   </thead>
-	{{ $Name := where site.RegularPages "Type" "game" }}
+	{{ $pages := where .Site.RegularPages "Params.populer" true }}
+	{{ if $pages }}
  		 {{ range (sort $Name) }}
-  			{{ if .Params.populer }}
   				<tbody>
    				 <tr>
    				   <td class="tddd"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
@@ -108,7 +108,7 @@
    		{{ end }}
 </table>
 </article>
-{{ partial "ads/footer.html" . }}
+<!-- {{ partial "ads/footer.html" . }} -->
 </main>
 {{ partial "lite/footer.html" . }}
 </body>
