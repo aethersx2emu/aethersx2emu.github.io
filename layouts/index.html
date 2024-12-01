@@ -95,7 +95,7 @@
       <th scope="col">Size</th>
     </tr>
   </thead>
-	{{ $pages := where .Site.RegularPages "Params.populer" true }}
+	{{ $pages := where .Site.Pages "Params.populer" "==" true }}
 	{{ if $pages }}
  		 {{ range (sort $Name) }}
   				<tbody>
