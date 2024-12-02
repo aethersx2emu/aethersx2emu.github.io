@@ -115,14 +115,14 @@
   </thead>
 	{{ $Name := where site.RegularPages "Type" "game" }}
  		 {{ range (sort $Name) }}
-  			{{ if .Params.populer }}
+  			{{ if eq .Params.populer "true" }}
   				<tbody>
    				 <tr>
    				   <td class="tddd"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
      				 <td class="tdcc">{{ .Params.size }}</td>
   				  </tr>
  				 </tbody>
- 				 {{ end }}
+ 			 {{ end }}
    		{{ end }}
 </table>
 </article>
