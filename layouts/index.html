@@ -104,7 +104,7 @@
   
 
 
-<h2>Games Trend</h2>
+<h2>Games PS2 Popular</h2>
 <table class="table table-sm">
   
   <thead>
@@ -115,7 +115,7 @@
   </thead>
 	{{ $Name := where site.RegularPages "Type" "game" }}
  		 {{ range (sort $Name) }}
-  			{{ if eq .Params.populer "true" }}
+  			{{ if eq .Params.populer true }}
   				<tbody>
    				 <tr>
    				   <td class="tddd"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
