@@ -5,7 +5,6 @@ slug : mac
 lang : line
 url : mac
 date   : 2024-10-03
-categories: [blog]
 ---
 
 

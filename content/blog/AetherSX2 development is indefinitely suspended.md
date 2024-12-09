@@ -3,7 +3,6 @@ type   : blog
 title  : AetherSX2 development is indefinitely suspended
 date   : 2024-05-21
 lang : en
-categories: [doc]
 ---
 
 AetherSX2 development is indefinitely suspended.

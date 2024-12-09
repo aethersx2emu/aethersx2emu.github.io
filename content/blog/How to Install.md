@@ -4,7 +4,6 @@ title  : How To Install And Usage Aethersx2
 slug : install
 url : install
 date   : 2024-10-03
-categories: [blog]
 ---
 
 

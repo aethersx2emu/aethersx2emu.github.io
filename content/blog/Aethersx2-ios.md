@@ -4,7 +4,6 @@ title  : Download AetherSX2 Emulator For IOS Official
 slug : ios
 date   : 2024-10-03
 url : ios
-categories: [blog]
 ---
 
 

@@ -5,7 +5,6 @@ slug : linux
 lang : en
 url : linux
 date   : 2024-10-03
-categories: [blog]
 ---
 
 

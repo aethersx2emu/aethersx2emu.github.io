@@ -5,7 +5,6 @@ slug : windows
 url : windows
 lang : en
 date   : 2024-10-03
-categories: [blog]
 ---
 
 

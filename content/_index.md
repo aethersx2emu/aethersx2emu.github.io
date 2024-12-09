@@ -1,6 +1,6 @@
 ---
 title  : AetherSX2 Emulator For Android - IOS Download
-description: AetherSX2 is a Emulator Playstation 2 (PS2), You can use the aethersx2 emulator for Android, IOS, Windows, MAC and Linux.
+description: AetherSX2 is a Emulator Playstation 2 for Android, IOS, Windows, MAC and Linux.
 lang: en
 categories: [emulator]
 tags      : [apk]

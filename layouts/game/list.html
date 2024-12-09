@@ -5,7 +5,15 @@
 <body>
 {{ partial "lite2/navbar.html" . }}
 <main class="container">
-{{ .Content }}
+  {{ $posts := where .Site.Pages "Type" "module" }}
+  {{ $paginator := .Paginate 7000 .Pages }}
+  {{ partial "pagination.html" (dict "p" $paginator "s" .Scratch) }}
+  
+    {{ range $paginator.Pages }}
+      {{ partial "list-item.html" . }}
+    {{ end }}
+  
+  {{ partial "pagination.html" (dict "p" $paginator "s" .Scratch) }}
 </main>
 {{ partial "lite/footer.html" }}
 </body>
