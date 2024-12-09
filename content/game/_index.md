@@ -6,10 +6,13 @@ lang: en
 noadsense : true
 navbar : off
 analistic : off
+paginate : 700
 keywords  : [
-    "playstation Games", "ps2 games", "Aethersx2 Games",
-  ]
+    "playstation Games", "ps2 games", "Aethersx2 Games",]
+    
+    
 ---
+
 
 # Playstation 2 Games
 
