@@ -6,7 +6,7 @@
 {{ partial "lite2/navbar.html" . }}
 <main class="container">
   {{ $posts := where .Site.Pages "Type" "module" }}
-  {{ $paginator := .Paginate 7000 .Pages }}
+  {{ $paginator := .Paginate .Pages }}
   {{ partial "pagination.html" (dict "p" $paginator "s" .Scratch) }}
   
     {{ range $paginator.Pages }}
