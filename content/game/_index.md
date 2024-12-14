@@ -1,5 +1,5 @@
 ---
-type : game
+type : game1
 title  : Download Playstation 2 Games - Aethersx2 - PCSX2
 description : All Game Playstation 2 Support Aethersx2 & PCSX2.
 lang: en
@@ -19,4 +19,4 @@ keywords  : [
 [Game Playstation 2 (USA)(.7z)(Telegram Link)](/game2)
 
 ## Game
-{{< game-list >}}
+

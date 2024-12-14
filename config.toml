@@ -18,7 +18,7 @@ buildFuture = true
 
 [pagination]
   disableAliases = false
-  pagerSize = 22
+  pagerSize = 7000
 
      
 [sitemap]

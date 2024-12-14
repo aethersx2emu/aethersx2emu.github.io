@@ -1,13 +1,11 @@
 {{ partial "meta/main.html" . }}
 <head>
 {{ partial "head.html" . }}
-{{ partial "adspop.html" . }}
-{{ partial "google/adsense.html" . }}
 </head>
 <body>
 {{ partial "navbar.html" . }}
 
-{{ block "blog" . }}
+{{ block "game1" . }}
 {{ .Content }}
 {{ end }}
 {{ partial "footer.html" }}
