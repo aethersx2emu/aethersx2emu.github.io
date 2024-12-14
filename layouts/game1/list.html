@@ -5,40 +5,30 @@
   {{ $paginator := .Paginate $posts }}
   {{ partial "pagination.html" (dict "p" $paginator "s" .Scratch) }}
   <table class="table table-sm">
-<thead>
-<tr>
-<th scope="col">Name</th>
-<th scope="col">Size</th>
-</tr>
-</thead>
-  
-{{ range $paginator.Pages }}
-
-{{ if (eq .Params.server "myrient") }}
-<tbody>
-<tr>
-<td class="tddd"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
-<td class="tdcc">{{ .Params.size }}B</td>
-</tr>
-</tbody>
-{{ else if .Params.populer }}
-<tbody>
-<tr>
-<td class="tddd"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
-<td class="tdcc">{{ .Params.size }}</td>
-</tr>
-</tbody>
-{{ end }}
-
-
+    <thead>
+     <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Size</th>
+     </tr>
+   </thead>
+	{{ range $paginator.Pages }}
+		{{ if (eq .Params.server "myrient") }}
+		<tbody>
+			<tr>
+				<td class="tddd"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+				<td class="tdcc">{{ .Params.size }}B</td>
+			</tr>
+		</tbody>
+		{{ else if .Params.populer }}
+		<tbody>
+			<tr>
+				<td class="tddd"><a href="{{ .Permalink }}">{{ .Title }}</a></td>
+				<td class="tdcc">{{ .Params.size }}</td>
+			</tr>
+		</tbody>
+		{{ end }}
     {{ end }}
   </table>
   {{ partial "pagination.html" (dict "p" $paginator "s" .Scratch) }}
 </main>
-
 {{ end }}
-
-
-
-
-
