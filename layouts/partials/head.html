@@ -8,7 +8,6 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 {{ partial "google/searchconsole.html" . }}
 {{ if ne .Params.traf "disable" }}
-isi : {{ .Params.analistic }}
 {{ partial "google/analytics.html" . }}
 {{ end }}
 {{ partial "google/tagmanager_head.html" . }}
