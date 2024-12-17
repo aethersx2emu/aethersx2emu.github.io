@@ -1,5 +1,33 @@
 {{ define "blog" }}
 {{ partial "single.html" . }}
+
+
+
+<h2> Article</h2>
+{{ $Name := where site.RegularPages "Type" "blog" }}
+{{ range (sort $Name) }}
+<div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+        <div class="col p-4 d-flex flex-column position-static">
+          <h3 class="mb-0"> <a class="post-link" href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          
+          <p class="card-text mb-auto">
+          	{{ if .Description }}
+          	{{ .Description }}
+          	{{ else }}
+          	{{ .Summary | plainify | truncate 300 }}
+          	{{ end }}
+          	</p>
+          <a href="{{ .Permalink }}
+          " class="icon-link gap-1 icon-link-hover stretched-link">
+            Continue reading
+           
+          </a>
+        </div>
+        
+      </div>
+
+{{ end }}
+
 {{ end }}
 
 

@@ -64,5 +64,5 @@ date   : 2024-10-03
 <li><b>Mediatek :</b> Untuk perangkat dengan prosesor <em>mediatek</em>, kami sarankan untuk menggunakan perender grafis <em>Vulkan</em>, yang terbukti lebih optimal dan maksimal pada <i>GPU Mali</i>.</li>
 </ul>
 
-{{< blog-list >}}
+<!-- {{< blog-list >}} -->
 
