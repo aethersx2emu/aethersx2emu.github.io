@@ -2,7 +2,7 @@
 {{ partial "single.html" . }}
 
 
-
+{{ if .Params.article_list }}}
 <h2> Article</h2>
 {{ $Name := where site.RegularPages "Type" "blog" }}
 {{ range (sort $Name) }}
@@ -27,7 +27,7 @@
       </div>
 
 {{ end }}
-
+{{ end }}
 {{ end }}
 
 
