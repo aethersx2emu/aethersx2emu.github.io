@@ -13,7 +13,4 @@ keywords  : [
 
 # Playstation 2 Games
 
-[Game Playstation 2 (USA)(.7z)(Telegram Link)](/game2)
-
-## Game
 
