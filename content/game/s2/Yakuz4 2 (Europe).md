@@ -1,6 +1,6 @@
 ---
 type : game
-title : Yakuza 2 (Europe)
+title : Yakuz4 2 (Europe)
 size : 6.0 G
 format : iso
 archive : zip

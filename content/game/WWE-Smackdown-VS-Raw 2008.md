@@ -1,6 +1,6 @@
 ---
 type   : game
-title  : WWE Smackdown Vs Raw
+title  : WWE Smackdown Vs Raw 2008
 date   : 2024-01-04T12:46:15+07:00
 slug   : WWE Smackdown Vs Raw
 name   : WWE Smackdown Vs Raw

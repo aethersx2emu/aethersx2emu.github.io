@@ -5,5 +5,6 @@ size : 3.1 G
 format : iso
 archive : zip
 server : myrient
+dcma : true
 link2 : Persona%203%20FES%20%28Europe%29
 ---
