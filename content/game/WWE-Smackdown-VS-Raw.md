@@ -6,6 +6,7 @@ slug   : WWE Smackdown Vs Raw
 name   : WWE Smackdown Vs Raw
 size: 2.3 GB
 genre: adventure
+telegram : https://t.me/AetherSX2_Emulator/70
 link2 : WWE%20SmackDown%20vs.%20Raw%202008%20%28USA%29
 img : https://www.mobygames.com/game/24597/wwe-smackdown-vs-raw-2006/cover/group-35842/cover-97693/
 populer : true
